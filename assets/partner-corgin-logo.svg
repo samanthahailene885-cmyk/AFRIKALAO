@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200" viewBox="0 0 520 200">
+  <rect width="520" height="200" fill="transparent"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="800">
+    <text x="260" y="120" font-size="96" text-anchor="middle" fill="#172247">corgin</text>
+  </g>
+  <circle cx="344" cy="62" r="10" fill="#9bd000"/>
+</svg>

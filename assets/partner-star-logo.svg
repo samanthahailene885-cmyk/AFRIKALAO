@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200" viewBox="0 0 520 200">
+  <rect width="520" height="200" fill="transparent"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="800">
+    <text x="260" y="110" font-size="44" text-anchor="middle" fill="#111">STAR INSTRUMENT</text>
+  </g>
+  <g fill="#0b76d1" opacity="0.95">
+    <rect x="140" y="52" width="44" height="44" rx="10"/>
+    <path d="M162 60l6 12h12l-10 7 4 12-10-7-10 7 4-12-10-7h12z" fill="#fff" opacity="0.95"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" fill="transparent"/>
+  <g opacity="0.95">
+    <path d="M300 58c70 0 130 60 130 130s-60 130-130 130-130-60-130-130S230 58 300 58z" fill="#f2a32c" opacity="0.22"/>
+    <path d="M640 80c70 0 130 60 130 130s-60 130-130 130-130-60-130-130S570 80 640 80z" fill="#0a8f7f" opacity="0.18"/>
+    <path d="M420 40c22 60 10 110-10 150-20-30-44-80-10-150 10-22 22-22 30 0z" fill="#1fb6ff"/>
+    <rect x="520" y="160" width="240" height="180" rx="16" fill="#0b1b2a" opacity="0.80"/>
+    <g opacity="0.85">
+      <rect x="548" y="188" width="64" height="54" rx="8" fill="#111"/>
+      <rect x="620" y="188" width="64" height="54" rx="8" fill="#111"/>
+      <rect x="692" y="188" width="64" height="54" rx="8" fill="#111"/>
+      <rect x="548" y="248" width="64" height="54" rx="8" fill="#111"/>
+      <rect x="620" y="248" width="64" height="54" rx="8" fill="#111"/>
+      <rect x="692" y="248" width="64" height="54" rx="8" fill="#111"/>
+    </g>
+    <path d="M770 140c0 30-20 60-55 60-20 0-35-12-42-24 7-28 34-62 70-62 20 0 27 10 27 26z" fill="#1d4ed8" opacity="0.9"/>
+    <path d="M250 250c70-10 140 20 200 70" stroke="#2f2f2f" stroke-opacity="0.12" stroke-width="26" stroke-linecap="round"/>
+  </g>
+</svg>
