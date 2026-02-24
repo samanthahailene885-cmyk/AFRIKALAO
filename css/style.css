@@ -653,7 +653,7 @@ input:focus, textarea:focus{border-color:rgba(10,143,127,.55)}
   position:relative;
   background:
     linear-gradient(0deg, rgba(0,0,0,.62), rgba(0,0,0,.62)),
-    url("../assets/footer-bg.svg") center/cover no-repeat;
+    url("../assets/Image1.png") center/cover no-repeat;
   color:#fff;
   padding:44px 0 26px;
 }
