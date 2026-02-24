@@ -677,7 +677,7 @@ input:focus, textarea:focus{border-color:rgba(10,143,127,.55)}
   content:"";
   position:absolute;
   inset:0;
-  background:rgba(0,0,0,.45);
+  background:rgba(0,0,0,.85);
   z-index:0;
 }
 
@@ -720,7 +720,7 @@ input:focus, textarea:focus{border-color:rgba(10,143,127,.55)}
 .footer-social-btn i{font-size:14px; line-height:1}
 .footer-social-btn:hover{filter:brightness(1.02)}
 
-.footer-bottom{background:var(--orange); color:#fff}
+.footer-bottom{background:#000; color:#fff}
 .footer-bottom-inner{padding:16px 0; text-align:center; font-weight:700; font-size:12px}
 
 @media (max-width: 980px){
