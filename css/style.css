@@ -181,27 +181,16 @@ a{color:inherit; text-decoration:none}
 .expertise-card{
   position:relative;
   width:260px;
-  height:auto;
+  height:160px;
   flex:0 0 auto;
-  border-radius:18px;
-  overflow:visible;
-  border:0;
-  box-shadow:none;
+  border-radius:6px;
+  overflow:hidden;
+  border:1px solid rgba(0,0,0,.10);
+  box-shadow:0 10px 24px rgba(0,0,0,.10);
   scroll-snap-align:start;
 }
 
-.expertise-media{
-  position:relative;
-  width:100%;
-  height:160px;
-  border-radius:18px;
-  overflow:hidden;
-  background:#fff;
-  border:6px solid #fff;
-  box-shadow:0 12px 26px rgba(0,0,0,.14);
-}
-
-.expertise-media img{
+.expertise-card img{
   width:100%;
   height:100%;
   object-fit:cover;
@@ -216,26 +205,43 @@ a{color:inherit; text-decoration:none}
 .expertise-card.expertise-recyclage img{object-position:center center}
 .expertise-card.expertise-construction img{object-position:right center}
 
-.expertise-overlay,
-.expertise-content{display:none}
-
-.expertise-label{
-  margin:10px 0 0;
-  text-align:center;
-  font-size:16px;
-  letter-spacing:.6px;
-  text-transform:uppercase;
-  line-height:1.15;
+.expertise-overlay{
+  position:absolute;
+  inset:0;
+  background:rgba(140, 94, 20, .50);
 }
 
-.expertise-label .label-top{
-  display:block;
-  color:var(--green);
+.expertise-content{
+  position:absolute;
+  inset:0;
+  padding:12px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  gap:8px;
+  color:#fff;
 }
 
-.expertise-label .label-bottom{
-  display:block;
-  color:var(--orange);
+.expertise-content h3{
+  margin:0;
+  font-size:13px;
+  letter-spacing:.3px;
+  color:#fff;
+}
+
+.expertise-content p{
+  margin:0;
+  font-size:11px;
+  line-height:1.25;
+  opacity:.95;
+  color:#fff;
+}
+
+.expertise-card .btn{
+  align-self:flex-start;
+  padding:10px 12px;
+  border-radius:6px;
+  box-shadow:none;
 }
 
 .partners{
