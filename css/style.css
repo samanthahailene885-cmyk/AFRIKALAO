@@ -329,7 +329,8 @@ a{color:inherit; text-decoration:none}
   margin:0 auto 10px;
 }
 
-.partner-corgin .partner-logo{width:min(360px, 68%)}
+.partner-corgin .partner-logo,
+.partner-star .partner-logo{width:min(300px, 60%)}
 
 .partner-logos{padding:24px 0 44px}
 
